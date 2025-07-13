@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --color-primary: #000000;
+  --color-secondary: #ffffff;
+  --color-gradient1: #7E90FE;
+  --color-gradient2: #9873FF;
+
+}
+
+.breadcumb {
+  background: url('../src/assets/images/Group\ 10022.png');
+  background-position-x: -100px;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
